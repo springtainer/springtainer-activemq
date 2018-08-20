@@ -20,6 +20,8 @@ import org.springframework.core.env.ConfigurableEnvironment;
 import com.avides.springboot.testcontainer.common.container.AbstractBuildingEmbeddedContainer;
 import com.avides.springboot.testcontainer.common.container.EmbeddedContainer;
 
+import lombok.SneakyThrows;
+
 @Configuration
 @ConditionalOnProperty(name = "embedded.container.activemq.enabled", matchIfMissing = true)
 @AutoConfigureOrder(Ordered.HIGHEST_PRECEDENCE)
@@ -49,6 +51,7 @@ public class EmbeddedActivemqContainerAutoConfiguration
             return provided;
         }
 
+        @SneakyThrows
         @Override
         protected boolean isContainerReady(ActivemqProperties properties)
         {
@@ -58,10 +61,6 @@ public class EmbeddedActivemqContainerAutoConfiguration
             {
                 connection.start();
                 return true;
-            }
-            catch (Exception e)
-            {
-                return false;
             }
         }
     }
