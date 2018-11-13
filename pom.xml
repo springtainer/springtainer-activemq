@@ -70,6 +70,11 @@
       <artifactId>spring-boot-starter-activemq</artifactId>
       <version>${spring-boot.version}</version>
     </dependency>
+<dependency>
+    <groupId>org.springframework.security</groupId>
+    <artifactId>spring-security-crypto</artifactId>
+    <version>5.1.1.RELEASE</version>
+</dependency>
 
     <!-- Testing -->
     <dependency>
