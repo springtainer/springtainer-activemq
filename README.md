@@ -2,8 +2,8 @@ springboot-testcontainer-activemq
 =================================
 
 [![Maven Central](https://img.shields.io/maven-metadata/v/http/central.maven.org/maven2/com/avides/springboot/testcontainer/springboot-testcontainer-activemq/maven-metadata.xml.svg)](https://search.maven.org/#search%7Cgav%7C1%7Cg%3A%22com.avides.springboot.testcontainer%22%20AND%20a%3A%22springboot-testcontainer-activemq%22)
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/4d64ab37576249f694bbb42e7d2cab56)](https://www.codacy.com/app/avides-builds/springboot-testcontainer-activemq?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=springboot-testcontainer/springboot-testcontainer-activemq&amp;utm_campaign=Badge_Grade)
-[![Coverage Status](https://coveralls.io/repos/springboot-testcontainer/springboot-testcontainer-activemq/badge.svg)](https://coveralls.io/r/springboot-testcontainer/springboot-testcontainer-activemq)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/4d64ab37576249f694bbb42e7d2cab56)](https://www.codacy.com/app/avides-builds/springboot-testcontainer-activemq)
+[![Codacy Badge](https://api.codacy.com/project/badge/Coverage/4d64ab37576249f694bbb42e7d2cab56)](https://www.codacy.com/app/avides-builds/springboot-testcontainer-activemq)
 [![Build Status](https://travis-ci.org/springboot-testcontainer/springboot-testcontainer-activemq.svg?branch=master)](https://travis-ci.org/springboot-testcontainer/springboot-testcontainer-activemq)
 
 ### Dependency
@@ -11,7 +11,7 @@ springboot-testcontainer-activemq
 <dependency>
 	<groupId>com.avides.springboot.testcontainer</groupId>
 	<artifactId>springboot-testcontainer-activemq</artifactId>
-	<version>0.1.0-RC1</version>
+	<version>0.1.0-RC2</version>
 	<scope>test</scope>
 </dependency>
 ```
