@@ -51,7 +51,7 @@
     <dependency>
       <groupId>com.avides.springboot.testcontainer</groupId>
       <artifactId>springboot-testcontainer-common</artifactId>
-      <version>0.1.0-RC9</version>
+      <version>0.1.0-RC10</version>
       <exclusions>
         <exclusion>
           <groupId>com.fasterxml.jackson.core</groupId>
@@ -69,11 +69,6 @@
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-activemq</artifactId>
       <version>${spring-boot.version}</version>
-    </dependency>
-    <dependency>
-      <groupId>org.springframework.security</groupId>
-      <artifactId>spring-security-crypto</artifactId>
-      <version>5.1.1.RELEASE</version>
     </dependency>
 
     <!-- Testing -->
