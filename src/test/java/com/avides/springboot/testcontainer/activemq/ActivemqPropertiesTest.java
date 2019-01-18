@@ -13,7 +13,7 @@ public class ActivemqPropertiesTest
         ActivemqProperties properties = new ActivemqProperties();
         assertTrue(properties.isEnabled());
         assertEquals(30, properties.getStartupTimeout());
-        assertEquals("rmohr/activemq:5.15.4-alpine", properties.getDockerImage());
+        assertEquals("rmohr/activemq:5.15.6-alpine", properties.getDockerImage());
         assertEquals(61616, properties.getPort());
     }
 }
