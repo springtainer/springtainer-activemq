@@ -1,6 +1,7 @@
 package com.avides.springboot.testcontainer.activemq;
 
-import org.apache.activemq.ActiveMQConnectionFactory;
+import javax.jms.ConnectionFactory;
+
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -22,5 +23,5 @@ public abstract class AbstractIT
     protected ConfigurableEnvironment environment;
 
     @Autowired
-    protected ActiveMQConnectionFactory activeMQConnectionFactory;
+    protected ConnectionFactory connectionFactory;
 }

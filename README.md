@@ -11,7 +11,7 @@ springboot-testcontainer-activemq
 <dependency>
 	<groupId>com.avides.springboot.testcontainer</groupId>
 	<artifactId>springboot-testcontainer-activemq</artifactId>
-	<version>0.1.0-RC2</version>
+	<version>0.1.0-RC3</version>
 	<scope>test</scope>
 </dependency>
 ```
@@ -20,7 +20,7 @@ springboot-testcontainer-activemq
 Properties consumed (in `bootstrap.properties`):
 - `embedded.container.activemq.enabled` (default is `true`)
 - `embedded.container.activemq.startup-timeout` (default is `30`)
-- `embedded.container.activemq.docker-image` (default is `rmohr/activemq:5.15.4-alpine`)
+- `embedded.container.activemq.docker-image` (default is `rmohr/activemq:5.15.6-alpine`)
 - `embedded.container.activemq.port` (default is `61616`)
 
 Properties provided (in `application-it.properties`):

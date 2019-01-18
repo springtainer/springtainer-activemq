@@ -26,7 +26,7 @@ public class EmbeddedActivemqContainerAutoConfigurationIT extends AbstractIT
     @Test
     public void testCreateQueue() throws Exception
     {
-        try (final Session session = activeMQConnectionFactory.createConnection().createSession(false, Session.AUTO_ACKNOWLEDGE))
+        try (final Session session = connectionFactory.createConnection().createSession(false, Session.AUTO_ACKNOWLEDGE))
         {
             assertThat(session.createQueue("foo")).isNotNull().hasFieldOrPropertyWithValue("queueName", "foo");
         }
