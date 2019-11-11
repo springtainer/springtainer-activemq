@@ -21,7 +21,7 @@
 Properties consumed (in `bootstrap.properties`):
 - `embedded.container.activemq.enabled` (default is `true`)
 - `embedded.container.activemq.startup-timeout` (default is `30`)
-- `embedded.container.activemq.docker-image` (default is `rmohr/activemq:5.15.6-alpine`)
+- `embedded.container.activemq.docker-image` (default is `rmohr/activemq:5.15.9-alpine`)
 - `embedded.container.activemq.port` (default is `61616`)
 
 Properties provided (in `application-it.properties`):
