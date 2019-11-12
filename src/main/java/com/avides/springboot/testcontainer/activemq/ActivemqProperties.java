@@ -20,6 +20,6 @@ public class ActivemqProperties extends AbstractEmbeddedContainerProperties
 
     public ActivemqProperties()
     {
-        setDockerImage("rmohr/activemq:5.15.6-alpine");
+        setDockerImage("rmohr/activemq:5.15.9-alpine");
     }
 }
