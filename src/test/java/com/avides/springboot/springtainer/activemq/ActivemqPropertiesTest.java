@@ -1,4 +1,4 @@
-package com.avides.springboot.testcontainer.activemq;
+package com.avides.springboot.springtainer.activemq;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
