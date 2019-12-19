@@ -1,6 +1,6 @@
-package com.avides.springboot.testcontainer.activemq;
+package com.avides.springboot.springtainer.activemq;
 
-import static com.avides.springboot.testcontainer.activemq.ActivemqProperties.BEAN_NAME;
+import static com.avides.springboot.springtainer.activemq.ActivemqProperties.BEAN_NAME;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -17,8 +17,8 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.core.Ordered;
 import org.springframework.core.env.ConfigurableEnvironment;
 
-import com.avides.springboot.testcontainer.common.container.AbstractBuildingEmbeddedContainer;
-import com.avides.springboot.testcontainer.common.container.EmbeddedContainer;
+import com.avides.springboot.springtainer.common.container.AbstractBuildingEmbeddedContainer;
+import com.avides.springboot.springtainer.common.container.EmbeddedContainer;
 
 import lombok.SneakyThrows;
 

@@ -1,4 +1,4 @@
-package com.avides.springboot.testcontainer.activemq;
+package com.avides.springboot.springtainer.activemq;
 
 import javax.jms.ConnectionFactory;
 

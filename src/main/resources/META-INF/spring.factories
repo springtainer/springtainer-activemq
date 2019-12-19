@@ -1,2 +1,2 @@
 org.springframework.cloud.bootstrap.BootstrapConfiguration=\
-com.avides.springboot.testcontainer.activemq.EmbeddedActivemqContainerAutoConfiguration
+com.avides.springboot.springtainer.activemq.EmbeddedActivemqContainerAutoConfiguration
