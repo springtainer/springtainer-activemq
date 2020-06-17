@@ -1,18 +1,21 @@
 # springtainer-activemq
 
-[![Maven Central](https://img.shields.io/maven-metadata/v/http/central.maven.org/maven2/com/avides/springboot/springtainer/springtainer-activemq/maven-metadata.xml.svg)](https://search.maven.org/#search%7Cgav%7C1%7Cg%3A%22com.avides.springboot.springtainer%22%20AND%20a%3A%22springtainer-activemq%22)
+[![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.avides.springboot.springtainer/springtainer-activemq/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.avides.springboot.springtainer/springtainer-activemq)
 [![Build](https://github.com/springtainer/springtainer-activemq/workflows/release/badge.svg)](https://github.com/springtainer/springtainer-activemq/actions)
 [![Nightly build](https://github.com/springtainer/springtainer-activemq/workflows/nightly/badge.svg)](https://github.com/springtainer/springtainer-activemq/actions)
 [![Coverage report](https://sonarcloud.io/api/project_badges/measure?project=springtainer_springtainer-activemq&metric=coverage)](https://sonarcloud.io/dashboard?id=springtainer_springtainer-activemq)
 [![Quality Gate](https://sonarcloud.io/api/project_badges/measure?project=springtainer_springtainer-activemq&metric=alert_status)](https://sonarcloud.io/dashboard?id=springtainer_springtainer-activemq)
 [![Technical dept](https://sonarcloud.io/api/project_badges/measure?project=springtainer_springtainer-activemq&metric=sqale_index)](https://sonarcloud.io/dashboard?id=springtainer_springtainer-activemq)
 
+## Attention
+This project will only receive dependency updates so long no code changes needed!
+
 ### Dependency
 ```xml
 <dependency>
 	<groupId>com.avides.springboot.springtainer</groupId>
 	<artifactId>springtainer-activemq</artifactId>
-	<version>1.0.0</version>
+	<version>1.1.0</version>
 	<scope>test</scope>
 </dependency>
 ```
