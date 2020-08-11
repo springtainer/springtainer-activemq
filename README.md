@@ -15,7 +15,7 @@ This project will only receive dependency updates so long no code changes needed
 <dependency>
 	<groupId>com.avides.springboot.springtainer</groupId>
 	<artifactId>springtainer-activemq</artifactId>
-	<version>1.1.0</version>
+	<version>1.2.0</version>
 	<scope>test</scope>
 </dependency>
 ```
