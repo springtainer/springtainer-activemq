@@ -35,7 +35,7 @@ public class EmbeddedActivemqContainerAutoConfiguration
         return new ActivemqContainer("activemq", environment, properties);
     }
 
-    public class ActivemqContainer extends AbstractBuildingEmbeddedContainer<ActivemqProperties>
+    public static class ActivemqContainer extends AbstractBuildingEmbeddedContainer<ActivemqProperties>
     {
         public ActivemqContainer(String service, ConfigurableEnvironment environment, ActivemqProperties properties)
         {
